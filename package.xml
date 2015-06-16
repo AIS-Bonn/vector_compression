@@ -1,0 +1,11 @@
+<package format="2">
+	<name>vector_compression</name>
+	<description>
+		Utility methods for compressing/uncompressing 3D and 4D vectors
+	</description>
+	<maintainer email="max.schwarz@uni-bonn.de">Max Schwarz</maintainer>
+	<version>1.0.0</version>
+	<license>BSD</license>
+
+	<buildtool_depend>catkin</buildtool_depend>
+</package>
