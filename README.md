@@ -9,8 +9,8 @@ communication link with the robot, allowing only small one-second bursts
 of high-bandwidth communication. Thus, we had to compress commands and feedback
 that we wanted to sent at higher rates (up to 10Hz) as much as possible.
 
-While generic compression (e.g. LZMA) is useful, you can achieve higher
-compression ratios and deterministic behavior using compression routines
+While generic lossless compression (e.g. LZMA) is useful, you can achieve higher
+compression ratios and deterministic behavior using (lossy) compression routines
 tailored to the specific task. Such algorithms were often originally developed
 for fast data transfer between CPU and GPU, but work equally well in this
 low-bandwidth situation.
